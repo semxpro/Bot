@@ -3,13 +3,13 @@ const mineflayer = require('mineflayer');
 const bot = mineflayer.createBot({
   host: "flatfusion.mcsh.io",  // ← আপনার Java IP
   port: 25565,                 // ← Java পোর্ট, Direct IP হলে 11046
-  username: "Semx",
+  username: "ProMax",
   version: "1.20.1"            // ← আপনার সার্ভারের ভার্সন দিন
 });
 
 bot.on('login', () => {
   console.log("✅ বট জয়েন করেছে, লগইন করছে...");
-  bot.chat("/login Salman2211@#");
+  bot.chat("/login Salman22111@#");
 });
 
 bot.on('spawn', () => {
